@@ -6,7 +6,7 @@
 ## 1. Arsitektur Sistem (System Architecture)
 Arsitektur sistem Smart Laundry ini dirancang menggunakan konsep tiga lapis (*3-Tier Architecture*) yang memisahkan antara antarmuka pengguna, logika server, dan penyimpanan data.
 
-```mermaid
+```mermaid akan langsung otomatis dirender menjadi gambar diagram arsiktektur
 graph TD
     %% Styling
     classDef client fill:#DB7093,stroke:#333,stroke-width:2px,color:#fff;
