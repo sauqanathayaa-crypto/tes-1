@@ -13,7 +13,7 @@ mudah dan cepat.
 
 ## 2. Struktur Halaman Aplikasi
 
-```text
+```mermaid
 SMART LAUNDRY
 │
 ├── Dashboard
