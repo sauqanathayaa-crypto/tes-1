@@ -1,4 +1,4 @@
-# Rancangan UX/UI - Smart Laundry
+# 2.1 Rancangan UX/UI - Smart Laundry
 
 ## 1. Deskripsi
 
@@ -51,6 +51,8 @@ flowchart TD
     J --> K["Selesai"]
 
 ```
+# 2.2 Rancangan Sistem
+
 ## 1. Arsitektur Sistem
 
 ```mermaid
