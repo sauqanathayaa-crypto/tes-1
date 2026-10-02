@@ -21,46 +21,7 @@ graph TD
     class B server;
     class C,D db;
 
-graph TD
-    Start([Mulai]) --> Input[Pengguna Mengakses Halaman Web]
-    Input --> Request[Kirim Permintaan Data ke Server]
-    Request --> Check{Cek Status Mesin & Ruangan}
-    
-    Check -->|Data Diperbarui| Fetch[(Ambil Data dari Database)]
-    Fetch --> Process[Server Memproses Status & Timer]
-    
-    Process --> Render[Kirim Data JSON ke Frontend]
-    Render --> Display[Dashboard Menampilkan Status Real-Time]
-    
-    Display --> End([Selesai / Menunggu Update Berikutnya])
 
-erDiagram
-    USER {
-        int id PK
-        string username
-        string password
-        string role
-    }
-
-    MACHINE {
-        int id PK
-        string machine_name
-        string status
-        int remaining_time
-    }
-
-    ROOM_CAPACITY {
-        int id PK
-        int total_visitors
-        string density_status
-        datetime updated_at
-    }
-
-    TRANSACTION {
-        int id PK
-        int user_id FK
-        int machine_id FK
-        string duration_package
         datetime timestamp
     }
 
